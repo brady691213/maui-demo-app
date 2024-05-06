@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="DemoCenter.Maui.projitem" />
+  <PropertyGroup>
+    <NoWarn>XC0022</NoWarn>
+  </PropertyGroup>
   <ItemGroup>
     <Content Remove="DemoModules\OfficeFileAPI\**" />
     <Compile Remove="DemoModules\OfficeFileAPI\**" />
