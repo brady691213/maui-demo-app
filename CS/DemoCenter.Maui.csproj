@@ -22,5 +22,6 @@
     <PackageReference Include="DevExpress.Maui.Editors" Version="23.2.*" />
     <PackageReference Include="DevExpress.Maui.Gauges" Version="23.2.*" />
     <PackageReference Include="DevExpress.Maui.Scheduler" Version="23.2.*" />
+    <PackageReference Update="Microsoft.Maui.Controls" Version="8.0.21" />
   </ItemGroup>
 </Project>
